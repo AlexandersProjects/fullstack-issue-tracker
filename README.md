@@ -122,6 +122,8 @@ https://daisyui.com/docs/themes/
 8. install prisma `npm i prisma@5.3.1`
     - `npx prisma init`
     - change provider to mysql
+    - `npx prisma format`
+    - `npx prisma migrate dev` 
 9. 
 
 ## Random tipps
