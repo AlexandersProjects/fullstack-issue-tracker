@@ -126,6 +126,9 @@ https://daisyui.com/docs/themes/
     - `npx prisma migrate dev` 
 9. `npm i zod@3.22.2`
 10. created the first api with prism and checked it with postman
+11. Creating the issue page with radix ui
+    - `npm install @radix-ui/themes`
+12. 
 
 ## Random tipps
 - Create a react component with `rafce` "raf C" 
