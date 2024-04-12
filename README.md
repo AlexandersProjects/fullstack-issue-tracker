@@ -124,7 +124,8 @@ https://daisyui.com/docs/themes/
     - change provider to mysql
     - `npx prisma format`
     - `npx prisma migrate dev` 
-9. 
+9. `npm i zod@3.22.2`
+10. created the first api with prism and checked it with postman
 
 ## Random tipps
 - Create a react component with `rafce` "raf C" 
