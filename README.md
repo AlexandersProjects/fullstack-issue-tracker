@@ -128,7 +128,7 @@ https://daisyui.com/docs/themes/
 10. created the first api with prism and checked it with postman
 11. Creating the issue page with radix ui
     - `npm install @radix-ui/themes`
-12. 
+12.
 
 ## Random tipps
 - Create a react component with `rafce` "raf C" 
