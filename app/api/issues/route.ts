@@ -1,3 +1,4 @@
+// app/api/issues/route.ts
 import { NextRequest, NextResponse } from "next/server";
 import { z } from 'zod';
 import prisma from "@/prisma/client"
@@ -11,7 +12,9 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const validation = createIssueSchema.safeParse(body);
     if (!validation.success) {
+        console.log(validation.error);
         return NextResponse.json(validation.error.format(), { status: 400 })
+        // return NextResponse.json(validation.error.errors, { status: 400 })
     }
 
     const newIssue = await prisma.issue.create({
