@@ -131,7 +131,9 @@ https://daisyui.com/docs/themes/
 12. Add README Editor
     - https://www.npmjs.com/package/react-simplemde-editor
     - npm install --save react-simplemde-editor easymde
-13. 
+13. Add form submission
+    - React Hook Form `npm install react-hook-form`
+14. Axios or fetch function to sent the form to database
 
 ## Random tipps
 - Create a react component with `rafce` "raf C" 
